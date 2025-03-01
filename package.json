@@ -1,0 +1,24 @@
+{
+  "name": "filesystem-server",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "fs-extra": "^11.3.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.8"
+  }
+}
