@@ -7,9 +7,9 @@ import {
   ListToolsRequestSchema,
   McpError,
 } from '@modelcontextprotocol/sdk/types.js';
-import * as fs from 'fs-extra';
+import fs from 'fs-extra';
 import * as path from 'path';
-import { Stats } from 'fs';
+import type { Stats } from 'fs';
 
 // Get allowed directories from environment variables
 const allowedDirectories = process.argv.slice(2);
